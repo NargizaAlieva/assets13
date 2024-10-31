@@ -77,3 +77,83 @@ ul li {
     background-color: rgba(97, 188, 158, 0.671);
     transition: 0.5s;
 }
+
+.text-block {
+    width: 40vw;
+    height: 100%;
+    padding: 50px;
+}
+
+.text-block .menu {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.year-list ul{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    font-family: "Roboto", sans-serif;
+    font-size: 23px;
+    color: rgb(173, 173, 173);
+    transition: 0.5s;
+}
+
+.year-list ul li{
+    transition: 0.5s;
+}
+
+
+.year-list ul li:hover{
+    color: black;
+    transition: 0.5s;
+}
+
+.event {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+
+    border-top: 1px solid rgba(128, 128, 128, 0);
+    border-bottom: 1px solid rgba(128, 128, 128, 0);
+}
+
+.event:hover {
+    border-color: rgba(128, 128, 128, 0.5);
+    transition: 0.3s;
+}
+
+.event .icon {
+    width: 9%;
+    border-radius: 50%;
+}
+
+.event .icon img{
+    width: 100%;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.event .text {
+    width: 65%;
+    text-align: left;
+    font-size: 18px;
+}
+
+.event .date {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 16%;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+}
+
+.event .date .day {
+    font-size: 40px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
