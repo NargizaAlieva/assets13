@@ -15,3 +15,65 @@ html {
 ul li {
     list-style: none;
 }
+
+.container {
+    width: 70vw;
+    height: 80vh;
+    background-color: white;
+    margin-top: 5%;
+
+    display: flex;
+}
+
+.image-block {
+    width: 30vw;
+    height: 100%;
+    background-image: url("img\\background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.layout {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-text {
+    color: white;
+    width: 50%;
+}
+
+.img-text strong {
+    font-size: 35px;
+}
+
+.img-text p {
+    margin: 18px 0;
+}
+
+.media-btn {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    width: 65%;
+    padding: 0 10px;
+    border-radius: 30px;
+    background-color: rgba(128, 255, 212, 0.6);
+    border: 0;
+
+    color: white;
+    font-size: 17px;
+
+    transition: 0.5s;
+}
+
+.media-btn:hover {
+    background-color: rgba(97, 188, 158, 0.671);
+    transition: 0.5s;
+}
